@@ -229,7 +229,7 @@ section:not(.hero-header) {
 }
 
 .hero-header {
-    background-image: url(assets/hero-header-background.png);
+    background-image: url(assets/hero-header-background.jpg);
     background-size:cover;
     background-position: center;
     height: 90vh;
@@ -568,7 +568,7 @@ section:not(.hero-header) {
 }
 
 .social-proof .padding-wrapper {
-    background-image: url(assets/social-proof-background.png);
+    background-image: url(assets/social-proof-background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -700,7 +700,7 @@ footer p {
     .fs-regular {font-size: .7rem;}
 
     .hero-header {
-        background-image: url(assets/hero-header-background-mobile.png);
+        background-image: url(assets/hero-header-background-mobile.jpg);
         height: 80vh;
     }
 

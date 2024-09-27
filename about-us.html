@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | Delicate Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="utility.js" defer></script>
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+</head>
+<body class="about-us">
+    <nav class="navbar transparent ff-futura-regular text-accent bg-primary-dark">
+        <a class="transparent-navbar-logo" href="index.html">
+            <img src="assets/logo.svg" alt="delicate design logo">
+            <!-- <p class="ff-futura-medium fs-medium">DELICATE DESIGN</p> -->
+        </a>
+        <a class="navbar-logo" href="index.html">
+            <img src="assets/logo-alternative.svg" alt="delicate design logo">
+            <p class="ff-futura-medium fs-medium">DELICATE DESIGN</p>
+        </a>
+        <ul class="tabs">
+            <li><button id="about-us-link" class="text-accent fs-regular-static">About us</button></li>
+            <li><button class="disabled text-accent fs-regular-static">Collections</button></li>
+            <li><button class="disabled text-accent fs-regular-static">Rooms</button></li>
+            <li><button class="disabled text-accent fs-regular-static">Discover</button></li>
+            <li><button class="disabled text-accent fs-regular-static">Contact us</button></li>
+            <button id="close-menu-btn" class="mobile-enabled"><img src="assets/exit-icon.svg" alt="exit icon"></button>
+        </ul>
+        <button class="transparent-menu-icon" class="mobile-enabled"><img class="menu-btn" src="assets/menu-icon.svg" alt="menu icon"></button>
+        <button class="mobile-enabled"><img class="menu-btn" src="assets/menu-icon-alternative.svg" alt="menu icon"></button>
+    </nav>
+    <section class="about-us-hero-header">
+        <p class="ff-baskerville fs-large text-accent">The Origin of Delicacy</p>
+    </section>
+
+    <div class="preview-modal-wrapper hide">
+        <div class="preview-modal bg-primary-dark">
+            <p class="ff-futura-regular text-accent fs-dynamic">Hey! this is just a preview prototype,<br>some buttons aren't functional.</p>
+            <button id="hide-modal" class="btn bg-accent text-primary-dark ff-futura-light fs-medium">I understand</button>
+        </div>
+    </div>
+</body>
+</html>
